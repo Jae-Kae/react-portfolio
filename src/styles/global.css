@@ -15,6 +15,7 @@ body {
   --transparent: #00000000;
   --radius-left: 3rem 0 0 3rem;
   --radius-right: 0 3rem 3rem 0;
+  --lavendar: #345jfs8;
 }
 
 button:hover,
