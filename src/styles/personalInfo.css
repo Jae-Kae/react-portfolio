@@ -1,0 +1,43 @@
+#personalInfo {
+  width: 15rem;
+  height: 4rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 3rem;
+  left: 3rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+#personal__lines {
+  display: flex;
+  align-items: center;
+}
+
+#personal__lines__thick {
+  display: block;
+  top: 0;
+  left: 0;
+  background-color: var(--cream);
+  height: 0.2rem;
+  width: 8.75rem;
+}
+
+#personal__lines__thin {
+  display: block;
+  top: 0;
+  left: 0;
+  background-color: var(--cream);
+  height: 0.2rem;
+  width: 8.75rem;
+}

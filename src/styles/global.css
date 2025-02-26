@@ -9,6 +9,18 @@ body {
 }
 
 :root {
+  /* Primary Colors */
+  --softLavender: #c5a8e3;
+  --forestGreen: #2d5f4b;
+  --charGray: #3a3a3a;
+
+  /* Secondary Colors */
+  --sage: #a8c4a2;
+  --cream: #f5ede1;
+
+  /* Accent Colors */
+  --honey: #e3b778;
+
   --purple: #540351;
   --blue: #3627b1;
   --cyan: #25afce;
