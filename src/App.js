@@ -6,7 +6,6 @@ import Skills from './pages/skills/Skills.js'
 import Projects from './pages/projects/Projects.js'
 import Contact from './pages/contact/Contact.js'
 import Background from './background/Background.js'
-
 import './styles/global.css'
 import PersonalInfo from './personalInfo/PersonalInfo.js'
 

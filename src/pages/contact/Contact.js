@@ -1,7 +1,13 @@
 import React from 'react'
+import ContactMenu from './ContactMenu'
+import '../../styles/contact.css'
 
 const Contact = () => {
-  return <div>Contact</div>
+  return (
+    <>
+      <ContactMenu />
+    </>
+  )
 }
 
 export default Contact
