@@ -6,7 +6,7 @@
 
 .avatar.about {
   height: 89vh;
-  bottom: -8vh;
+  bottom: -10vh;
   left: 50%;
   transform: translateX(-50%);
 }
