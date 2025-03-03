@@ -55,6 +55,7 @@
 .project-sub-container h3 {
   position: relative;
   margin: 0;
+  padding-bottom: 1rem;
 }
 .project-sub-container img {
   width: 100%;
@@ -109,6 +110,9 @@
   .project-sub-container {
     margin-top: 1rem;
     width: 12rem;
+  }
+  .project-sub-container h3 {
+    padding-bottom: 0.5rem;
   }
   .project-sub-container img {
     width: 12rem;

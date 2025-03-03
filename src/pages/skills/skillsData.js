@@ -15,7 +15,7 @@ const skillsData = {
 
     {
       title: 'TailwindCSS',
-      level: 6,
+      level: 3,
     },
     {
       title: 'ReactJS',
@@ -47,7 +47,7 @@ const skillsData = {
     },
     {
       title: 'Express.js',
-      level: 4,
+      level: 5,
     },
   ],
 }

@@ -3,10 +3,10 @@ import '../styles/nav.css'
 import { Link, useLocation } from 'react-router-dom'
 
 // images & icons
-import astroHelmet from '../assets/astronaut-helmet.png'
-import deadEye from '../assets/dead-eye.png'
+import astroHelmet from '../assets/floppy-disk-sm.png'
+import deadEye from '../assets/wheel.png'
 import stack from '../assets/stack.png'
-import envelope from '../assets/envelope.png'
+import envelope from '../assets/envelope2.png'
 
 export const Nav = () => {
   const location = useLocation()
