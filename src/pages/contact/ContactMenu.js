@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 import DOMPurify from 'dompurify'
+import { Link } from 'react-router-dom'
+import CV from '../../assets/web-portfolio-project.png'
 
 const ContactMenu = () => {
   const initialState = {
@@ -87,6 +89,19 @@ const ContactMenu = () => {
 
   return (
     <div className='contact-menu'>
+      <h1 className='contact-title'>CONTACT ME</h1>
+      <p>Leave me a message, download my cv or find me on LinkedIn! 🚀</p>
+      <Link to={CV} download='Janette King CV' target='_blank' rel='noreferrer'>
+        <button className='btn btn-color-2'> Download Resume</button>
+      </Link>
+      <a
+        href='https://www.linkedin.com/in/janette-king/'
+        target='_blank'
+        rel='noreferrer'
+      >
+        <button className='btn btn-color-2'> LinkedIn</button>
+      </a>
+
       {!isSent && (
         <form onSubmit={handleSubmit}>
           <div className='form-group'>
