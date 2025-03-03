@@ -88,24 +88,20 @@ label {
   display: none;
 }
 
-/* .btn-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.3rem;
-  margin: 2rem 0;
-} */
-
 .contact-menu p {
   margin-bottom: 2rem;
 }
 
-a,
-p {
+.contact-menu > p {
   width: 70%;
   text-align: center;
+}
+
+.contact-menu > a {
   text-decoration: none;
+  text-align: center;
+  width: 70%;
+  gap: 1rem;
 }
 
 @media (max-width: 1100px) {
