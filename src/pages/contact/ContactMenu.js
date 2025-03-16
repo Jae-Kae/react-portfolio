@@ -98,6 +98,7 @@ const ContactMenu = () => {
         href='https://www.linkedin.com/in/janette-king/'
         target='_blank'
         rel='noreferrer'
+        className='linked-in-link'
       >
         <button> LinkedIn</button>
       </a>

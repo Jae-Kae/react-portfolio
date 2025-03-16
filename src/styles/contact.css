@@ -104,6 +104,10 @@ label {
   gap: 1rem;
 }
 
+.linked-in-link {
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 1100px) {
   .contact-menu {
     top: 50%;
