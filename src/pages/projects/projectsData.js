@@ -52,10 +52,7 @@ const projectsData = {
           hairdressers, salon listings, and user-submitted recommendations. I
           customized the theme using PHP snippets for enhanced functionality,
           such as dynamic search filters, custom post types for hairstylists,
-          and an interactive booking system. By leveraging Advanced Custom
-          Fields (ACF) and custom WordPress hooks, the site provides a seamless
-          user experience while maintaining a professional and community-focused
-          aesthetic.
+          and an interactive booking system.
         </p>
       </>
     ),

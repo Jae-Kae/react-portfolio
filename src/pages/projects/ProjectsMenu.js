@@ -6,7 +6,7 @@ import '../../styles/projectsMenu.css'
 const ProjectsMenu = () => {
   const [activeProject, setActiveProject] = useState(1)
 
-  const projectItems = ['PROJECT ONE', 'PROJECT TWO', 'PROJECT THREE']
+  const projectItems = ['PROJECT 1', 'PROJECT 2', 'PROJECT 3']
 
   const renderContent = (projects) => {
     return projects.map((project, index) => (
