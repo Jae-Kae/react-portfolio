@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 import DOMPurify from 'dompurify'
 import { Link } from 'react-router-dom'
-import CV from '../../assets/Janette_King_CV_WebV2.pdf'
+import CV from '../../assets/JanetteKing_CV_Web2026.pdf'
 
 const ContactMenu = () => {
   const initialState = {
