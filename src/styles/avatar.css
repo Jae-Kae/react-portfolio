@@ -20,7 +20,7 @@
 
 .shadow-overlay-skills {
   height: 100vh;
-  width: 100vh;
+  /* width: 100vh; */
   display: block;
   position: fixed;
   background: linear-gradient(
