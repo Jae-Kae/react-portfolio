@@ -19,10 +19,12 @@
 .title {
   font-size: 1rem;
   padding-right: 2.5rem;
+  animation: pulse 2s infinite;
 }
 
 .item.active .title {
   font-size: 1.5rem;
+  animation: pulse 0s infinite;
 }
 
 .sub-container {
